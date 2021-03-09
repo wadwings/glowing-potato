@@ -1,0 +1,57 @@
+.unit{
+    width: 30px;
+    height: 30px;
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: default;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    transition: 0.3s;
+    background-color: white;
+}
+.darkturquoise{
+    color: darkgray;
+}
+
+.aliceblue{
+    background-color: aliceblue;
+}
+.unit:hover{
+    background-color: darkturquoise;
+}
+
+.unit:active{
+    background-color: aqua;
+}
+
+.unit::before{
+    content: '';
+}
+
+.row{
+    border-collapse:collapse;
+}
+
+.table{
+    border-collapse:collapse;
+    margin: 20px auto;
+}
+
+.body{
+    background: black;
+}
+
+.choose{
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.main{
+    text-align: center;
+}
