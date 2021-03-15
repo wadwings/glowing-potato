@@ -160,7 +160,7 @@ var Table = function (_React$Component3) {
 				size: size,
 				diff: diff,
 				nr: nr,
-				path: "./" + size + "/" + diff + "/" + nr
+				path: "./resources/app/Resources/" + size + "/" + diff + "/" + nr
 			}, function () {
 				return _this3.initGame();
 			});
@@ -340,4 +340,4 @@ var Row = function (_React$Component4) {
 	return Row;
 }(React.Component);
 
-ReactDOM.render(React.createElement(Table, { size: 6, path: "./binarypuzzle/puzzle_6_1" }), document.getElementById('root'));
+ReactDOM.render(React.createElement(Table, { size: 6, path: "./resources/app/Resources/6/1/1" }), document.getElementById('root'));

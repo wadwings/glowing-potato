@@ -107,7 +107,7 @@ class Table extends React.Component {
 			size : size,
 			diff : diff,
 			nr : nr,
-			path : `./${size}/${diff}/${nr}`
+			path : `./resources/app/Resources/${size}/${diff}/${nr}`
 		}, () => this.initGame())
 	}
 
@@ -218,4 +218,4 @@ class Row extends React.Component {
 	}
 }
 
-ReactDOM.render(<Table size={6} path={"./binarypuzzle/puzzle_6_1"}/>, document.getElementById('root'));
+ReactDOM.render(<Table size={6} path={"./resources/app/Resources/6/1/1"}/>, document.getElementById('root'));
